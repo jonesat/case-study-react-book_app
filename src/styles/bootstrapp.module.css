@@ -1,0 +1,123 @@
+.card {
+    flex-direction: row;
+    width: 90rem;
+    margin: 0.5%;
+    border-radius: 10px;
+  }
+
+.cimg {
+    width: 6rem;
+    height:8rem;    
+    object-fit: cover;
+    border-radius: 10px;
+  }
+.cfooter{
+    display: flex;
+    width:13rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;    
+  }
+.cbody{
+   
+    width:60rem;
+    border-radius: 10px;
+  }
+  
+.detailcard{
+    display: flex;
+    flex-direction: column;
+    
+  }  
+.detailimg {
+  width: 6rem;
+  height:8rem;    
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 15px;
+}
+.detailbody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+  }
+.detailtitle{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.search {
+  
+  width:70%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.search>*{        
+    border-radius: 10px;                 
+    margin-top: 21%;
+    margin-left: 35%;
+    
+    width:10%;
+    
+  }
+  
+.searchcontainer{
+  margin:0%;
+  height:100vh;
+  background-image: url(/src/images/hero.jpg);
+    
+    
+}
+
+.h1 {
+  text-align: center;
+}
+
+.agtable {
+  height: 10%;
+   width: 50%;
+}
+
+.piechart{
+  width: 40%;
+  height:40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:3%;
+  
+}
+
+.authorcard {
+  flex-direction: column;
+  
+  border-radius: 10px;
+  margin-top: 1%;
+}
+
+.authorcardfooter{
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;    
+}
+.authorcardbody{
+  
+  border-radius: 10px;
+}
+
+.authorcardgroup {
+  flex-direction: row;
+  width: 90%;    
+  border-radius: 10px;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
